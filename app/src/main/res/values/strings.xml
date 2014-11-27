@@ -5,4 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string name="green">Green Tea</string>
+    <string name="black">Black Tea</string>
+    <string name="white">White Tea</string>
+    <string name="herbal">Herbal Tea</string>
+
 </resources>

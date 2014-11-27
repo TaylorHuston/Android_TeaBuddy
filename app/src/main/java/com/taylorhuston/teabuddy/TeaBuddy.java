@@ -4,14 +4,29 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 
 public class TeaBuddy extends Activity {
+
+    private static String TAG = "Tea Buddy";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tea_buddy);
+
+        //Declare buttons
+        Button mGrnButton = (Button) findViewById(R.id.Green);
+        Button mBlkButton = (Button) findViewById(R.id.Black);
+        Button mHrbButton = (Button) findViewById(R.id.Herbal);
+        Button mWhtButton = (Button) findViewById(R.id.White);
+
+
+
+
+
+
     }
 
 
